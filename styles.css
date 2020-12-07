@@ -213,7 +213,7 @@
 }
 
 .flex-item {
-  flex-direction: column;
+  margin: auto;
   flex: 1;
 }
 
