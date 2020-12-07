@@ -19,20 +19,21 @@
         </div>
     </div>
     <form action="index.html" method="post">
+          <div class="contact-info">
            <fieldset>
             <legend><b>Contact Information</b></legend>
             
               <label for="user-name">Full Name</label>  
-              <input type="text" id="user-name" name="user-name">
+              <input type="text" id="user-name" name="user-name" placeholder="Required">
 
               <label for="user-email">Email Address</label>
-              <input type="email" id="user-email" name="user-email">
+              <input type="email" id="user-email" name="user-email" placeholder="Required">
 
               <label for="user-phone">Phone Number</label>
-              <input type="tel" id="user-phone" name="user-phone">
+              <input type="tel" id="user-phone" name="user-phone" placeholder="Optional">
 
               <label for="user-address">Street Address</label>
-              <input type="text" id="user-address" name="user-address">
+              <input type="text" id="user-address" name="user-address"  placeholder="Optional">
 
               <label for="city">City</label>
               <input type="text" id="city" name="city">
@@ -94,10 +95,10 @@
 
               <label for="zip">Zip Code</label>
               <input type="text" id="zip" name="zip">
-           
+            </div> 
         </fieldset>
         <legend id="newsletter"><b>Newsletter</b></legend>
-        <fieldset>
+        <fieldset class="preferences">
             <label>Select the newsletters you would like to receive</label>
               <div class="option">
                 <input type="checkbox" id="html-news" name="html-news"><label for="html-news">HTML News</label><br>
@@ -121,7 +122,7 @@
             <textarea class="topics" id="topics" name="topics">
 
             </textarea>
-            <button type="submit">Sign Up</button>
+            <button type="submit" class="btn">Sign Up</button>
         </fieldset>
     </form>
     <footer>
