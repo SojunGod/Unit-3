@@ -45,7 +45,7 @@
   }
 
   form {
-    margin: 10px auto;
+    margin: 10px auto 0 auto;
     padding: 10px 20px;
     border-top: solid 1px #333;
   }
@@ -83,6 +83,7 @@
   
   input[type="radio"],
   input[type="checkbox"] {
+    display: inline-block;
     margin: 0 4px 8px 0;
   }
   
@@ -104,7 +105,7 @@
     border: 1px solid #3ac162;
     border-width: 1px 1px 3px;
     box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
   
   fieldset {
@@ -121,11 +122,17 @@
   }
   
   label {
-    display: inline-block;
+    display: block;
     margin-bottom: 8px;
   }
   
   label.light {
     font-weight: 300;
     display: inline;
+  }
+
+  footer {
+   
+    text-align: center;
+    padding-bottom: 50px;
   }
