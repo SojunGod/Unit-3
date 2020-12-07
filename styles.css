@@ -5,7 +5,7 @@
   }
   
   body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     color: #384047;
     width: 100%;
   }
@@ -108,6 +108,8 @@
   }
   
   fieldset {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 30px;
     border: none;
   }
@@ -115,10 +117,11 @@
   legend {
     font-size: 1.4em;
     margin-bottom: 10px;
+    font-weight: 300;
   }
   
   label {
-    display: block;
+    display: inline-block;
     margin-bottom: 8px;
   }
   
