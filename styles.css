@@ -204,21 +204,22 @@
 
 @media only screen and (min-width: 768px) {
 
-.contact-info {
+
+fieldset {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+ align-items: center;
+ flex-direction:row;
+ flex-direction: wrap;
 }
 
-.contact-info label {
-  margin: auto;
+label, input {
   flex: 1;
 }
-.contact-info input {
-  margin: auto;
-  flex-grow: 10;
- 
-}
+
+
+
+
+
 
 
 
