@@ -116,8 +116,7 @@
   }
   
   fieldset {
-    display: flex;
-    flex-direction: column;
+    
     margin-bottom: 30px;
     border: none;
   }
@@ -126,7 +125,6 @@
     text-align:justify; 
     flex-grow: 1;
     flex-direction:column; 
-    align-items:left; 
     padding-bottom: 10px;
     padding-top: 5px;
   }
@@ -158,7 +156,7 @@
   }
 
   input:focus {
-    border: solid 1px black;
+    border: solid 2px black;
   }
 
   #zip {
@@ -182,8 +180,12 @@
     }
     
     input:hover {
-      background-color: #f7edb5;
+      background-color: #e8fabf;
         }
+
+    input:focus {
+      background-color: #f6ff7e;
+    }
    /* psuedo-classes */
 
 ::-webKit-input-placeholder { /* WebKit browsers */
@@ -205,45 +207,19 @@
 @media only screen and (min-width: 768px) {
 
 
-  .contact-info .flex-item {
-    flex-direction: row;
+  .flex-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
   }
-  .contact-info input {
-    flex-grow: 1;
-    flex-basis: 75%;
-  }
-  .contact-info label {
+  .flex-item label {
     flex-basis: 25%;
-    height:50px;
     margin: auto 0;
   }
-  #telephone {
-    max-width: 25%;
+  .flex-item input,
+  .flex-item select {
+    margin: 0;
+    flex-basis: 70%;
+    flex-grow: 1;
   }
-}
-
-/* 
-
-.contact-info {
-  display: flex;
- align-items: center;
- flex-direction:row;
- flex-wrap: wrap;
-}
-
-.flex-item {
-  margin: auto;
-  flex: 1;
-} */
-
-
-
-
-
-
-
-
-
-
-
 }
