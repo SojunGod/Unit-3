@@ -7,23 +7,47 @@
   body {
     font-family: 'Nunito', sans-serif;
     color: #384047;
+    width: 100%;
   }
 
   .site-header {
     display: flex;
     flex-direction: column;
+    border-bottom: solid 4px #333;
   }
 
+ 
   .header-item {
     margin: auto;
+    width: unset;
+    padding-right: 40px;
+    padding-left: 20px;
   }
   
+  .review {
+    color: white;
+    background-color: black;
+    padding: 1em 0;
+  }
+
+  .signup {
+    padding: 1em;
+     }
+
+  .caption {
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  legend {
+    padding: 20px 0;
+  }
+
   form {
-    max-width: 300px;
     margin: 10px auto;
     padding: 10px 20px;
-    background: #f4f7f8;
-    border-radius: 8px;
+    border-top: solid 1px #333;
   }
   
   h1 {
