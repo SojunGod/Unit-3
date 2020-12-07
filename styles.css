@@ -152,7 +152,7 @@
   }
 
   footer {
-   
+    margin-top: auto;
     text-align: center;
     padding-bottom: 50px;
   }
@@ -197,4 +197,32 @@
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     direction: rtl;
+}
+
+
+/* Media Query */
+
+@media only screen and (min-width: 768px) {
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact-info label {
+  margin: auto;
+  flex: 1;
+}
+.contact-info input {
+  margin: auto;
+  flex-grow: 10;
+ 
+}
+
+
+
+
+
+
 }
