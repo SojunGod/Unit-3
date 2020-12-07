@@ -42,12 +42,15 @@
 
   legend {
     padding: 20px 0;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    font-weight: 500;
   }
 
   form {
+    border-top: solid 1px #333;
     margin: 10px auto 0 auto;
     padding: 10px 20px;
-    border-top: solid 1px #333;
   }
   
   h1 {
@@ -120,13 +123,18 @@
     flex-grow: 1;
     flex-direction:column; 
     align-items:left; 
-    /* justify-content:center;  */
+    padding-bottom: 10px;
+    padding-top: 5px;
   }
   
-  legend {
-    font-size: 1.4em;
-    margin-bottom: 10px;
-    font-weight: 300;
+ 
+
+  #newsletter {
+    border-top: solid 1px #333;
+  }
+
+  #format {
+    margin-top: 20px;
   }
   
   label {
@@ -143,4 +151,13 @@
    
     text-align: center;
     padding-bottom: 50px;
+  }
+
+  input:focus {
+    border: solid 1px black;
+  }
+
+  #zip {
+    max-width: 150px;
+ 
   }
