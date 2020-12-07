@@ -167,6 +167,7 @@
      min-height: 150px;
    }
 
+    /* transitions */
    .btn {
     opacity: 0.6;
    }
